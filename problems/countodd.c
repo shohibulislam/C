@@ -18,7 +18,7 @@ int main(){
     for(int i=0; i<n; i++){
         printf("%d ",a[i]);
     }
-    printf("\nNumber of add number: %d",countodd(a , n));
+    printf("\nNumber of odd number: %d",countodd(a , n));
 }
 
 int countodd(int a[], int n){
@@ -31,3 +31,4 @@ int countodd(int a[], int n){
     return count;
 
 }
+
