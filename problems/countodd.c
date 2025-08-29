@@ -1,3 +1,6 @@
+// program to count the number of odd elements in an array
+
+
 #include<stdio.h>
 
 int countodd(int a[], int n);
@@ -26,4 +29,5 @@ int countodd(int a[], int n){
         }
     }
     return count;
+
 }
