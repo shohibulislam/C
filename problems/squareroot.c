@@ -1,3 +1,5 @@
+//// program to find the integer square root of any non-negative integer.
+
 #include<stdio.h>
 
 int sq(int x);
@@ -25,4 +27,5 @@ int sq(int x){
         }
     }
     return x/2;
+
 }
