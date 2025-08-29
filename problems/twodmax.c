@@ -1,3 +1,5 @@
+// program to find the maximum element in a 2D array
+
 #include<stdio.h>
 int main(){
     int row, col;
@@ -24,4 +26,5 @@ int main(){
         }
     }
     printf("%d",max);
+
 }
