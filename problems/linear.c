@@ -1,3 +1,5 @@
+// program that searches for a number in an array using linear search.
+
 #include<stdio.h>
 int main(){
     int a[5];
@@ -24,4 +26,5 @@ int main(){
         printf("Number not found!");
     }
     
+
 }
