@@ -1,3 +1,6 @@
+//C program that calculates the power of a number (base^exponent) using loops.
+//Supports positive, zero, and negative exponents with decimal bases.
+
 #include<stdio.h>
 
 double power(double b , int p);
@@ -28,4 +31,5 @@ double power (double b , int p){
     }
 
     return result;
+
 }
