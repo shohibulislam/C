@@ -22,12 +22,10 @@ void salt(char a[]){
     a[n + strlen(x)] = '\0';
 
     printf("Salted Form: ");
-    for(int i=0; a[i] != '\0'; i++){
-        printf("%c",a[i]);
-    }
+    puts(a);
 }
 
-//libary method
+//library method
 
 // #include<stdio.h>
 // #include<string.h>
@@ -39,5 +37,6 @@ void salt(char a[]){
 //     char x[] = "123";
 //     strcat(a , x);
 //     printf("Salting Form: ");
-//     printf("%s",a);
+//     puts(a);
+
 // }
